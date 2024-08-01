@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form>
+        <label for="cars">Choose a Car:</label>
+        <select id="cars" name="cars" size="4" multiple>
+            <option value="volvo">volvo</option>
+            <option value="tata">Tata</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="kia">Kia</option>
+             
+        </select><br><br>
+       
+    </form>
+    <form>
+        <textarea name="note" rows="5" cols="8">The Cat was Jumping in the Garden.</textarea>
+
+    </form>
+    <br>
+    <form>
+        <button type="button" onclick="alert('hello world!')">clickme!</button>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+        <legand>Biodata:</legand><br>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="wick"><br>
+        </fieldset>
+
+    </form><br>
+    <form>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="chrome">
+            <option value="edge">
+            <option value="opera">
+            <option value="safari">
+        </datalist>
+        <input type="submit">
+    </form><br>
+    <form>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">password</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="submit form">
+        <input type="reset" value="reset form"><br>
+
+    </form><br>
+    <form>
+        <input type="radio" id="tamil" name="language" value="tamil">
+        <label for="tamil">Tamil</label><br>
+        <input type="radio" id="english" name="language" value="english">
+        <label for="english">English</label><br>
+        <input type="radio" id="hindi" name="language" value="hindi">
+        <label for="hindi">Hindi</label><br>
+    </form>
+<input type="button" onclick="alert('hi buddy!')" value="clickme!"><br>
+<form>
+    <label for="favcolor">color</label><br>
+    <input type="color" id="favcolor" name="favcolor" value="solid purple"><br>
+    <label for="birthdaytime">birthday(time and date)</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+    <label for="myfile">myfile</label><br>
+    <input type="myfile" id="myfile" name="myfile"><br><br>
+    <label for="bdaymonth">birthdaymonth</label><br>
+    <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="datemax">Enter Date Before (30-12-2015)</label>
+    <input type="date" id="datemax" name="datemax" max="29-12-2015"><br>
+    <label for="datemin">Enter Date After (28-7-2023)</label>
+    <input type="date" id="datemin" name="datemin" min="29-7-2023"><br><br>
+    <label for="quantity">Quantity(between 1 and 5)</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+    <input type="submit" value="submit"><br><br>
+    <label for="quantity">quantity(Between 1 and 100)</label>
+    <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="20"><br>
+    <input type="submit" value="submit"><br><br>
+    <label for="vol">Range(Between 0 and 50)</label>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <input type="submit" value="submit"><br><br>
+    <label for="appt">Enter a Time:</label>
+    <input type="time" id="appt" name="appt"><br><br>
+    <label for="week">Enter a Week:</label>
+    <input type="week" id="week" name="week"><br><br>
+</form><br>
+
+    
+
+
+</body>
+</html>
